@@ -1,0 +1,16 @@
+{
+  "name": "cropcare-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered crop health advisory and management system",
+  "scripts": {
+    "build": "npm --prefix server install",
+    "start": "npm --prefix server start",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
